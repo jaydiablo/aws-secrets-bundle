@@ -16,15 +16,15 @@
     ],
     "require": {
         "php": ">=7.1",
-        "symfony/dependency-injection": "^3.4 | ^4.1.12 | ^5.0",
+        "symfony/dependency-injection": "^3.4 | ^4.1.12",
         "aws/aws-sdk-php": "^3.62",
         "ext-json": "*"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
-        "symfony/framework-bundle": "^3.4 | ^4.1.12 | ^5.0",
+        "symfony/framework-bundle": "^3.4 | ^4.1.12",
         "phpunit/phpunit": "^7.2",
-        "symfony/phpunit-bridge": "^3.4 | ^4.1.12 | ^5.0",
+        "symfony/phpunit-bridge": "^3.4 | ^4.1.12",
         "behat/symfony2-extension": "^2.1"
     },
     "autoload": {

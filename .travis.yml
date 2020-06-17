@@ -9,24 +9,42 @@ matrix:
       env: COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
     - php: 7.1
       env: SYMFONY_VERSION=^4.1.12
+    - php: 7.1
+      env: SYMFONY_VERSION=^4.2.7
+    - php: 7.1
+      env: SYMFONY_VERSION=^4.3
+    - php: 7.1
+      env: SYMFONY_VERSION=^4.4
     - php: 7.2
       env: COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
     - php: 7.2
       env: SYMFONY_VERSION=^4.1.12
     - php: 7.2
-      env: SYMFONY_VERSION=5.1.*
+      env: SYMFONY_VERSION=^4.2.7
+    - php: 7.2
+      env: SYMFONY_VERSION=^4.3
+    - php: 7.2
+      env: SYMFONY_VERSION=^4.4
     - php: 7.3
       env: COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
     - php: 7.3
       env: SYMFONY_VERSION=^4.1.12
     - php: 7.3
-      env: SYMFONY_VERSION=5.1.*
+      env: SYMFONY_VERSION=^4.2.7
+    - php: 7.3
+      env: SYMFONY_VERSION=^4.3
+    - php: 7.3
+      env: SYMFONY_VERSION=^4.4
     - php: 7.4
       env: COMPOSER_FLAGS='--prefer-lowest --prefer-stable'
     - php: 7.4
       env: SYMFONY_VERSION=^4.1.12
     - php: 7.4
-      env: SYMFONY_VERSION=5.1.*
+      env: SYMFONY_VERSION=^4.2.7
+    - php: 7.4
+      env: SYMFONY_VERSION=^4.3
+    - php: 7.4
+      env: SYMFONY_VERSION=^4.4
   fast_finish: true
 
 install:
