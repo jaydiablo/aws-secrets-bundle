@@ -15,10 +15,11 @@
         }
     ],
     "require": {
+        "aws/aws-sdk-php": "^3.62",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": ">=5.3.4",
         "php": ">=7.1",
         "symfony/dependency-injection": "^3.4 | ^4.1.12",
-        "aws/aws-sdk-php": "^3.62",
-        "ext-json": "*"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
